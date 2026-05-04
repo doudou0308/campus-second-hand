@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分类浏览 - 校园二手交易平台</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo">校园二手交易平台</a>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="publish.html">发布闲置</a></li>
+                <li><a href="category.html">分类浏览</a></li>
+                <li><a href="notice.html">交易须知</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container" style="margin-top: 30px;">
+        <div class="breadcrumb">
+            <a href="index.html">首页</a> &gt; 分类浏览
+        </div>
+
+        <h2 class="section-title">全部分类</h2>
+        <div class="filter-bar" id="filterBar">
+            <button class="btn filter-btn active" data-filter="all">全部</button>
+            <button class="btn filter-btn" data-filter="book">教材资料</button>
+            <button class="btn filter-btn" data-filter="elec">电子产品</button>
+            <button class="btn filter-btn" data-filter="life">生活用品</button>
+            <button class="btn filter-btn" data-filter="sport">运动器材</button>
+            <button class="btn filter-btn" data-filter="other">其他闲置</button>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+            <!-- 教材资料 -->
+            <div class="product-card" data-category="book">
+                <div class="product-img">考研资料</div>
+                <div class="product-info">
+                    <div class="product-title">2026考研政治英语数学全套</div>
+                    <div class="product-price">¥50</div>
+                    <div class="product-meta">教材资料 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="book">
+                <div class="product-img">高数教材</div>
+                <div class="product-info">
+                    <div class="product-title">高等数学第七版上下册</div>
+                    <div class="product-price">¥12</div>
+                    <div class="product-meta">教材资料 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="book">
+                <div class="product-img">四级词汇</div>
+                <div class="product-info">
+                    <div class="product-title">新东方英语四级词汇书</div>
+                    <div class="product-price">¥8</div>
+                    <div class="product-meta">教材资料 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="book">
+                <div class="product-img">应急管理概论</div>
+                <div class="product-info">
+                    <div class="product-title">应急管理概论教材 9成新</div>
+                    <div class="product-price">¥15</div>
+                    <div class="product-meta">教材资料 | 燕郊校区</div>
+                </div>
+            </div>
+
+            <!-- 电子产品 -->
+            <div class="product-card" data-category="elec">
+                <div class="product-img">蓝牙耳机</div>
+                <div class="product-info">
+                    <div class="product-title">小米AirDots蓝牙耳机 9成新</div>
+                    <div class="product-price">¥45</div>
+                    <div class="product-meta">电子产品 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="elec">
+                <div class="product-img">机械键盘</div>
+                <div class="product-info">
+                    <div class="product-title">雷柏机械键盘 青轴 无损坏</div>
+                    <div class="product-price">¥80</div>
+                    <div class="product-meta">电子产品 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="elec">
+                <div class="product-img">显示器</div>
+                <div class="product-info">
+                    <div class="product-title">23寸1080P电脑显示器</div>
+                    <div class="product-price">¥320</div>
+                    <div class="product-meta">电子产品 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="elec">
+                <div class="product-img">充电宝</div>
+                <div class="product-info">
+                    <div class="product-title">罗马仕充电宝20000mAh</div>
+                    <div class="product-price">¥35</div>
+                    <div class="product-meta">电子产品 | 燕郊校区</div>
+                </div>
+            </div>
+
+            <!-- 生活用品 -->
+            <div class="product-card" data-category="life">
+                <div class="product-img">二手自行车</div>
+                <div class="product-info">
+                    <div class="product-title">凤凰牌自行车 26寸 7成新</div>
+                    <div class="product-price">¥120</div>
+                    <div class="product-meta">生活用品 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="life">
+                <div class="product-img">宿舍台灯</div>
+                <div class="product-info">
+                    <div class="product-title">LED护眼台灯 三档可调光</div>
+                    <div class="product-price">¥18</div>
+                    <div class="product-meta">生活用品 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="life">
+                <div class="product-img">床上书桌</div>
+                <div class="product-info">
+                    <div class="product-title">折叠床上书桌 木质 八成新</div>
+                    <div class="product-price">¥25</div>
+                    <div class="product-meta">生活用品 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="life">
+                <div class="product-img">床帘</div>
+                <div class="product-info">
+                    <div class="product-title">遮光床帘 深蓝色 9成新</div>
+                    <div class="product-price">¥22</div>
+                    <div class="product-meta">生活用品 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="life">
+                <div class="product-img">收纳箱</div>
+                <div class="product-info">
+                    <div class="product-title">塑料收纳箱 大号 三个</div>
+                    <div class="product-price">¥20</div>
+                    <div class="product-meta">生活用品 | 燕郊校区</div>
+                </div>
+            </div>
+
+            <!-- 运动器材 -->
+            <div class="product-card" data-category="sport">
+                <div class="product-img">篮球</div>
+                <div class="product-info">
+                    <div class="product-title">斯伯丁篮球 7号 9成新</div>
+                    <div class="product-price">¥60</div>
+                    <div class="product-meta">运动器材 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="sport">
+                <div class="product-img">瑜伽垫</div>
+                <div class="product-info">
+                    <div class="product-title">加厚瑜伽垫 防滑 仅用两次</div>
+                    <div class="product-price">¥25</div>
+                    <div class="product-meta">运动器材 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="sport">
+                <div class="product-img">哑铃</div>
+                <div class="product-info">
+                    <div class="product-title">可调节哑铃 5kg*2</div>
+                    <div class="product-price">¥40</div>
+                    <div class="product-meta">运动器材 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="sport">
+                <div class="product-img">羽毛球拍</div>
+                <div class="product-info">
+                    <div class="product-title">尤尼克斯羽毛球拍 一对</div>
+                    <div class="product-price">¥85</div>
+                    <div class="product-meta">运动器材 | 燕郊校区</div>
+                </div>
+            </div>
+
+            <!-- 其他闲置 -->
+            <div class="product-card" data-category="other">
+                <div class="product-img">吉他</div>
+                <div class="product-info">
+                    <div class="product-title">卡玛民谣吉他 配琴包调音器</div>
+                    <div class="product-price">¥200</div>
+                    <div class="product-meta">其他闲置 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="other">
+                <div class="product-img">手办</div>
+                <div class="product-info">
+                    <div class="product-title">海贼王正版手办 路飞</div>
+                    <div class="product-price">¥65</div>
+                    <div class="product-meta">其他闲置 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="other">
+                <div class="product-img">榨汁杯</div>
+                <div class="product-info">
+                    <div class="product-title">便携榨汁杯 全新未拆封</div>
+                    <div class="product-price">¥30</div>
+                    <div class="product-meta">其他闲置 | 燕郊校区</div>
+                </div>
+            </div>
+            <div class="product-card" data-category="other">
+                <div class="product-img">校园卡套</div>
+                <div class="product-info">
+                    <div class="product-title">创意校园卡套 全新5个装</div>
+                    <div class="product-price">¥10</div>
+                    <div class="product-meta">其他闲置 | 燕郊校区</div>
+                </div>
+            </div>
+        </div>
+
+        <p id="noResult" style="display:none; text-align:center; color:var(--gray); padding:40px;">该分类暂无商品，请查看其他分类。</p>
+
+        <div style="text-align: center; margin: 40px 0 50px;">
+            <a href="index.html" class="btn">返回首页</a>
+            <a href="publish.html" class="btn btn-secondary" style="margin-left: 15px;">我也要发布</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-column">
+                <h3>关于我们</h3>
+                <p>应急管理大学校园二手交易平台，专为在校师生打造的闲置流转平台。</p>
+            </div>
+            <div class="footer-column">
+                <h3>快速链接</h3>
+                <a href="index.html">返回首页</a>
+                <a href="publish.html">发布闲置</a>
+                <a href="notice.html">交易须知</a>
+            </div>
+            <div class="footer-column">
+                <h3>联系方式</h3>
+                <p>地址：河北廊坊三河燕郊开发区学院大街467号</p>
+                <p>邮箱：service@example.edu.cn</p>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2026 应急管理大学校园二手交易平台 All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
