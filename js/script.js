@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (heroImg && dots.length > 0) {
         var imgList = [
-            'img/663-1920x350.jpg',
-            'img/866-1920x350.jpg',
-            'img/微信图片_20260422091401_455_40.jpg'
+            'img/DSC00355.jpg',
+            'img/DSC00371_1.jpg',
+            'img/DSC00454.jpg'
         ];
 
         dots.forEach(function(dot) {
