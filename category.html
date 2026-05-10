@@ -13,32 +13,10 @@
             <ul class="nav-links">
                 <li><a href="index.html">首页</a></li>
                 <li><a href="publish.html">发布闲置</a></li>
-                <li>
-                    <a href="category.html">分类浏览</a>
-                    <ul class="submenu">
-                        <li><a href="category.html">教材资料</a></li>
-                        <li><a href="category.html">电子产品</a></li>
-                        <li><a href="category.html">生活用品</a></li>
-                        <li><a href="category.html">运动器材</a></li>
-                        <li><a href="category.html">其他闲置</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="notice.html">交易须知</a>
-                    <ul class="submenu">
-                        <li><a href="notice.html#flow">交易流程</a></li>
-                        <li><a href="notice.html#security">安全指南</a></li>
-                        <li><a href="faq.html">常见问题</a></li>
-                    </ul>
-                </li>
-                <li><a href="my-posts.html">我的发布</a></li>
+                <li><a href="category.html">分类浏览</a></li>
+                <li><a href="notice.html">交易须知</a></li>
                 <li><a href="contact.html">联系我们</a></li>
-                <li><a href="about.html">关于我们</a></li>
             </ul>
-            <div class="search-bar">
-                <input type="text" placeholder="搜索闲置物品...">
-                <button>搜索</button>
-            </div>
         </div>
     </header>
 
@@ -47,19 +25,9 @@
             <a href="index.html">首页</a> &gt; 分类浏览
         </div>
 
-        <h2 class="section-title">全部分类</h2>
-        <div class="filter-bar" id="filterBar">
-            <button class="btn filter-btn active" data-filter="all">全部</button>
-            <button class="btn filter-btn" data-filter="book">教材资料</button>
-            <button class="btn filter-btn" data-filter="elec">电子产品</button>
-            <button class="btn filter-btn" data-filter="life">生活用品</button>
-            <button class="btn filter-btn" data-filter="sport">运动器材</button>
-            <button class="btn filter-btn" data-filter="other">其他闲置</button>
-        </div>
-
-        <div class="product-grid" id="productGrid">
-            <!-- 教材资料 -->
-            <div class="product-card" data-category="book">
+        <h2 class="section-title">教材资料</h2>
+        <div class="product-grid">
+            <div class="product-card">
                 <div class="product-img">考研资料</div>
                 <div class="product-info">
                     <div class="product-title">2026考研政治英语数学全套</div>
@@ -67,7 +35,7 @@
                     <div class="product-meta">教材资料 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="book">
+            <div class="product-card">
                 <div class="product-img">高数教材</div>
                 <div class="product-info">
                     <div class="product-title">高等数学第七版上下册</div>
@@ -75,7 +43,7 @@
                     <div class="product-meta">教材资料 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="book">
+            <div class="product-card">
                 <div class="product-img">四级词汇</div>
                 <div class="product-info">
                     <div class="product-title">新东方英语四级词汇书</div>
@@ -83,7 +51,7 @@
                     <div class="product-meta">教材资料 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="book">
+            <div class="product-card">
                 <div class="product-img">应急管理概论</div>
                 <div class="product-info">
                     <div class="product-title">应急管理概论教材 9成新</div>
@@ -91,9 +59,11 @@
                     <div class="product-meta">教材资料 | 燕郊校区</div>
                 </div>
             </div>
+        </div>
 
-            <!-- 电子产品 -->
-            <div class="product-card" data-category="elec">
+        <h2 class="section-title" style="margin-top: 30px;">电子产品</h2>
+        <div class="product-grid">
+            <div class="product-card">
                 <div class="product-img">蓝牙耳机</div>
                 <div class="product-info">
                     <div class="product-title">小米AirDots蓝牙耳机 9成新</div>
@@ -101,7 +71,7 @@
                     <div class="product-meta">电子产品 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="elec">
+            <div class="product-card">
                 <div class="product-img">机械键盘</div>
                 <div class="product-info">
                     <div class="product-title">雷柏机械键盘 青轴 无损坏</div>
@@ -109,7 +79,7 @@
                     <div class="product-meta">电子产品 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="elec">
+            <div class="product-card">
                 <div class="product-img">显示器</div>
                 <div class="product-info">
                     <div class="product-title">23寸1080P电脑显示器</div>
@@ -117,7 +87,7 @@
                     <div class="product-meta">电子产品 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="elec">
+            <div class="product-card">
                 <div class="product-img">充电宝</div>
                 <div class="product-info">
                     <div class="product-title">罗马仕充电宝20000mAh</div>
@@ -125,9 +95,11 @@
                     <div class="product-meta">电子产品 | 燕郊校区</div>
                 </div>
             </div>
+        </div>
 
-            <!-- 生活用品 -->
-            <div class="product-card" data-category="life">
+        <h2 class="section-title" style="margin-top: 30px;">生活用品</h2>
+        <div class="product-grid">
+            <div class="product-card">
                 <div class="product-img">二手自行车</div>
                 <div class="product-info">
                     <div class="product-title">凤凰牌自行车 26寸 7成新</div>
@@ -135,7 +107,7 @@
                     <div class="product-meta">生活用品 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="life">
+            <div class="product-card">
                 <div class="product-img">宿舍台灯</div>
                 <div class="product-info">
                     <div class="product-title">LED护眼台灯 三档可调光</div>
@@ -143,7 +115,7 @@
                     <div class="product-meta">生活用品 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="life">
+            <div class="product-card">
                 <div class="product-img">床上书桌</div>
                 <div class="product-info">
                     <div class="product-title">折叠床上书桌 木质 八成新</div>
@@ -151,15 +123,7 @@
                     <div class="product-meta">生活用品 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="life">
-                <div class="product-img">床帘</div>
-                <div class="product-info">
-                    <div class="product-title">遮光床帘 深蓝色 9成新</div>
-                    <div class="product-price">¥22</div>
-                    <div class="product-meta">生活用品 | 燕郊校区</div>
-                </div>
-            </div>
-            <div class="product-card" data-category="life">
+            <div class="product-card">
                 <div class="product-img">收纳箱</div>
                 <div class="product-info">
                     <div class="product-title">塑料收纳箱 大号 三个</div>
@@ -167,9 +131,11 @@
                     <div class="product-meta">生活用品 | 燕郊校区</div>
                 </div>
             </div>
+        </div>
 
-            <!-- 运动器材 -->
-            <div class="product-card" data-category="sport">
+        <h2 class="section-title" style="margin-top: 30px;">运动器材</h2>
+        <div class="product-grid">
+            <div class="product-card">
                 <div class="product-img">篮球</div>
                 <div class="product-info">
                     <div class="product-title">斯伯丁篮球 7号 9成新</div>
@@ -177,7 +143,7 @@
                     <div class="product-meta">运动器材 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="sport">
+            <div class="product-card">
                 <div class="product-img">瑜伽垫</div>
                 <div class="product-info">
                     <div class="product-title">加厚瑜伽垫 防滑 仅用两次</div>
@@ -185,7 +151,7 @@
                     <div class="product-meta">运动器材 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="sport">
+            <div class="product-card">
                 <div class="product-img">哑铃</div>
                 <div class="product-info">
                     <div class="product-title">可调节哑铃 5kg*2</div>
@@ -193,7 +159,7 @@
                     <div class="product-meta">运动器材 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="sport">
+            <div class="product-card">
                 <div class="product-img">羽毛球拍</div>
                 <div class="product-info">
                     <div class="product-title">尤尼克斯羽毛球拍 一对</div>
@@ -201,9 +167,11 @@
                     <div class="product-meta">运动器材 | 燕郊校区</div>
                 </div>
             </div>
+        </div>
 
-            <!-- 其他闲置 -->
-            <div class="product-card" data-category="other">
+        <h2 class="section-title" style="margin-top: 30px;">其他闲置</h2>
+        <div class="product-grid">
+            <div class="product-card">
                 <div class="product-img">吉他</div>
                 <div class="product-info">
                     <div class="product-title">卡玛民谣吉他 配琴包调音器</div>
@@ -211,7 +179,7 @@
                     <div class="product-meta">其他闲置 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="other">
+            <div class="product-card">
                 <div class="product-img">手办</div>
                 <div class="product-info">
                     <div class="product-title">海贼王正版手办 路飞</div>
@@ -219,7 +187,7 @@
                     <div class="product-meta">其他闲置 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="other">
+            <div class="product-card">
                 <div class="product-img">榨汁杯</div>
                 <div class="product-info">
                     <div class="product-title">便携榨汁杯 全新未拆封</div>
@@ -227,7 +195,7 @@
                     <div class="product-meta">其他闲置 | 燕郊校区</div>
                 </div>
             </div>
-            <div class="product-card" data-category="other">
+            <div class="product-card">
                 <div class="product-img">校园卡套</div>
                 <div class="product-info">
                     <div class="product-title">创意校园卡套 全新5个装</div>
@@ -236,8 +204,6 @@
                 </div>
             </div>
         </div>
-
-        <p id="noResult" style="display:none; text-align:center; color:var(--gray); padding:40px;">该分类暂无商品，请查看其他分类。</p>
 
         <div style="text-align: center; margin: 40px 0 50px;">
             <a href="index.html" class="btn">返回首页</a>

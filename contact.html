@@ -13,32 +13,10 @@
             <ul class="nav-links">
                 <li><a href="index.html">首页</a></li>
                 <li><a href="publish.html">发布闲置</a></li>
-                <li>
-                    <a href="category.html">分类浏览</a>
-                    <ul class="submenu">
-                        <li><a href="category.html">教材资料</a></li>
-                        <li><a href="category.html">电子产品</a></li>
-                        <li><a href="category.html">生活用品</a></li>
-                        <li><a href="category.html">运动器材</a></li>
-                        <li><a href="category.html">其他闲置</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="notice.html">交易须知</a>
-                    <ul class="submenu">
-                        <li><a href="notice.html#flow">交易流程</a></li>
-                        <li><a href="notice.html#security">安全指南</a></li>
-                        <li><a href="faq.html">常见问题</a></li>
-                    </ul>
-                </li>
-                <li><a href="my-posts.html">我的发布</a></li>
+                <li><a href="category.html">分类浏览</a></li>
+                <li><a href="notice.html">交易须知</a></li>
                 <li><a href="contact.html">联系我们</a></li>
-                <li><a href="about.html">关于我们</a></li>
             </ul>
-            <div class="search-bar">
-                <input type="text" placeholder="搜索闲置物品...">
-                <button>搜索</button>
-            </div>
         </div>
     </header>
 
@@ -49,8 +27,8 @@
 
         <div class="card">
             <h2 class="section-title">给我们留言</h2>
-            <p style="margin-bottom: 20px; color: var(--gray);">如果您对平台有任何建议、意见或遇到问题，请通过下方表单联系我们，我们会尽快回复。</p>
-            <form id="contactForm">
+            <p style="margin-bottom: 20px; color: #666666;">如果您对平台有任何建议或遇到问题，请通过下方表单联系我们。</p>
+            <form id="contactForm" onsubmit="return checkContactForm()">
                 <div class="form-group">
                     <label for="name">姓名 *</label>
                     <input type="text" id="name" placeholder="请输入您的姓名">

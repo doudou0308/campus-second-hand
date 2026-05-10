@@ -13,32 +13,10 @@
             <ul class="nav-links">
                 <li><a href="index.html">首页</a></li>
                 <li><a href="publish.html">发布闲置</a></li>
-                <li>
-                    <a href="category.html">分类浏览</a>
-                    <ul class="submenu">
-                        <li><a href="category.html">教材资料</a></li>
-                        <li><a href="category.html">电子产品</a></li>
-                        <li><a href="category.html">生活用品</a></li>
-                        <li><a href="category.html">运动器材</a></li>
-                        <li><a href="category.html">其他闲置</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="notice.html">交易须知</a>
-                    <ul class="submenu">
-                        <li><a href="notice.html#flow">交易流程</a></li>
-                        <li><a href="notice.html#security">安全指南</a></li>
-                        <li><a href="faq.html">常见问题</a></li>
-                    </ul>
-                </li>
-                <li><a href="my-posts.html">我的发布</a></li>
+                <li><a href="category.html">分类浏览</a></li>
+                <li><a href="notice.html">交易须知</a></li>
                 <li><a href="contact.html">联系我们</a></li>
-                <li><a href="about.html">关于我们</a></li>
             </ul>
-            <div class="search-bar">
-                <input type="text" placeholder="搜索闲置物品...">
-                <button>搜索</button>
-            </div>
         </div>
     </header>
 
@@ -52,7 +30,7 @@
             <div class="tip-box">
                 <strong>提示：</strong>请如实填写物品信息，诚信交易是平台的基本原则。
             </div>
-            <form id="publishForm">
+            <form id="publishForm" onsubmit="return checkPublishForm()">
                 <div class="form-group">
                     <label for="title">物品标题 *</label>
                     <input type="text" id="title" placeholder="如：九成新英语四级单词书">
