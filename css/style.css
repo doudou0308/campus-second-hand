@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f9ff;
+    line-height: 1.6;
+    color: #333333;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+a {
+    color: #5483B3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #052659;
+}
+
+
+
+
+
+
+/*顶部导航栏设计*/
+.dingbu {
+    width: 1200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;/* 均匀排列每个元素
+                                   首个元素放置于起点，末尾元素放置于终点 */
+    align-items: center;
+
+    padding: 10px 20px;
+	
+}
+
+.daohangtiaodise {
+    background-color: #052659;
+}
+
+
+
+
+/*校园二手交易平台字体*/
+.biaozhi {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+
+.biaozhi:hover {
+    color: #C1E8FF;
+}
+/*校园二手交易平台字体*/
+
+
+
+
+/*导航条设计*/
+.daohang {
+    display: flex;
+    list-style: none;
+}
+
+.daohang a {
+	font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.daohang a:hover {
+    background-color: #5483B3;
+}
+/*导航条设计结束*/
+
+
+/*顶部导航栏设计end*/
+
+
+
+
+
+/*横幅图片设计*/
+.hengfu {
+    width: 100%;
+    height: 360px;
+    position: relative;/*锚点*/
+}
+.hengfu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bantoumincen {
+    position: absolute;/*承接锚点*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	/* 垂直居中*/
+    display: flex;
+    align-items: center;
+	/*左内边距 10% */
+    padding-left: 10%;
+	/* 半透明黑色背景 */
+    background-color: #000000;
+    opacity: 0.4;
+}
+
+
+/*图片上文字*/
+.wenzi {
+    color: #ffffff;
+}
+.wenzi h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+.wenzi p {
+    font-size: 18px;
+}
+/*图片上文字end*/
+
+/*横幅图片设计结束*/
+
+
+
+
+
+
+/*下方整体容器布局*/
+.rongqi {
+    width: 1200px;
+    margin: 40px auto 40px auto;
+    padding: 0 20px 0 20px;
+}
+
+
+/*子页面专属  中等宽度容器布局*/
+.rongqi-zhi {
+    width: 800px;
+    margin: 40px auto 40px auto;
+    padding: 0 20px 0 20px;
+}
+/*父*/
+.buju {
+    display: flex;
+}
+/*左子*/
+.zhuti {
+    flex: 2;
+    margin: 0 30px 0 0;
+}
+/*右子*/
+.celan {
+    flex: 1;
+}
+/*下方整体容器布局结束*/
+
+
+
+
+
+
+
+
+/*二级标题布局   热门分类.....*/
+.biaoti {
+    font-size: 22px;
+    color: #052659;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 12px;
+    border-left: 4px solid #5483B3
+}
+/*二级标题布局结束*/
+
+
+
+
+/*热门分类网设计*/
+.leibiewang {
+    display: flex;
+    margin: 0 0 30px 0;
+}
+
+
+.leibieka {
+    background-color: #ffffff;
+    padding: 25px 10px;
+    text-align: center;
+    flex: 1;
+    margin:0 15px 0 0;
+    color: #021024;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.leibieka:hover {
+    background-color: #C1E8FF;
+}
+/*热门分类网设计end*/
+
+
+
+
+
+
+
+
+
+/*左下热门闲置商品设计*/
+.wupinwang {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wupinka {
+	width: 30%;
+	
+    background-color: #ffffff;
+    margin:0 20px 20px 0;
+}
+
+.wupintu {
+    width: 100%;
+    height: 160px;
+	
+    background-color: #C1E8FF;
+	
+    text-align: center;
+    line-height: 160px;
+    color: #052659;
+    font-size: 15px;
+}
+
+.wupinxinxi {
+    padding: 15px;
+}
+
+.wupinming {
+    font-size: 15px;
+    color: #021024;
+    margin: 0 0 6px 0 ;
+}
+
+.wupinjia {
+    font-size: 18px;
+    color: #e4393c;
+    font-weight: bold;
+}
+
+.wupinfu {
+    font-size: 12px;
+    color: #666666;
+    margin: 5px 0 0 0;
+}
+
+/*左下热门闲置商品设计end*/
+
+
+
+
+
+
+/*右侧栏设计*/
+
+.celan .fenquhe {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.celan .biaoti {
+    background-color: #052659;
+    color: #ffffff;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border-left: none;
+    margin-bottom: 0;
+}
+
+.celan .fennei {
+    padding: 15px 18px;
+}
+
+.celan ul {
+    list-style: none;
+}
+
+.celan li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #e0e0e0;
+    font-size: 14px;
+}
+
+.celan a {
+    color: #021024;
+    text-decoration: none;
+}
+
+.celan a:hover {
+    color: #5483B3;
+}
+
+/*右侧栏设计end*/
+
+
+
+
+/*子页面的卡片设计*/
+.kapian {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 0 0 25px 0;
+}
+/*子页面的卡片设计*/
+
+
+
+
+
+
+/*子页面的按钮设计*/
+.anniu {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #5483B3;
+    color: #ffffff !important;
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+}
+.anniu:hover {
+    background-color: #052659;
+}
+
+
+
+/*返回首页*/
+.cianniu {
+    background-color: #666666;
+}
+.cianniu:hover {
+    background-color: #555555;
+}
+
+
+
+.weianniu {
+    background-color: #e4393c;
+}
+.weianniu:hover {
+    background-color: #c1272d;
+}
+/*子页面的按钮设计end*/
+
+
+
+
+/*发布闲置fabu页面的标题*/
+
+.biaozu {
+    margin: 0 0 20px 0;
+}
+
+
+.biaozu label {
+    display: block;
+    margin: 0 0 8px 0;
+    font-weight: bold;
+    color: #052659;
+}
+
+
+.biaozu input,
+.biaozu textarea,
+.biaozu select {
+    width: 90%;
+    padding: 10px 14px 10px 14px;
+    border: 1px solid #dddddd;
+    font-size: 15px;
+}
+
+/*发布闲置fabu页面的标题end*/
+
+
+
+
+
+
+/*统一的底部页脚*/
+.footer {
+    background-color: #021024;
+    color: #ffffff;
+    padding: 40px 0 20px 0;/*内边距*/
+    margin: 0 0 0 0;/*上右下左*/
+}
+
+.dibu {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+
+.dianlan {
+    flex: 1;
+    margin: 0 30px 0 0;
+}
+
+.dianlan h3 {/*三级标题*/
+    font-size: 17px;
+    margin: 0 0 15px 0;              
+    color: #C1E8FF;
+}
+
+.dianlan p{/*段落*/
+    font-size: 13px;
+    color: #cccccc;
+    text-decoration: none;
+    line-height: 1.8;
+    display: block;
+}
+
+                                    /*   ┌────────────────────────────────┐
+                                         │         margin (外边距)        │
+                                         ┌──────────────────────────┐     │
+                                        ││  │      border (边框)        │  │
+                                        ││  │  ┌────────────────────┐  │  │
+                                        ││  │  │  padding (内边距)   │  │  │
+                                        ││  │  │                    │  │  │
+                                        ││  │  │  内容 (文字/图片)   │  │  │
+                                        ││  │  │                    │  │  │
+                                        ││  │  └────────────────────┘  │  │
+                                        ││  └──────────────────────────┘  │
+                                        │└────────────────────────────────┘*/
+.dianlan a {/*快速链接超链接*/
+    font-size: 13px;
+    color: #cccccc;
+    text-decoration: none;
+    line-height: 1.8;
+    display: block;
+}
+
+.dianlan a:hover {
+    color: #5483B3;
+}
+
+.banquan {
+	font-size: 12px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 20px 0 0 0;
+    border-top: 1px solid #333333;/*粗细 样式 颜色*/
+    color: #999999;
+}
+/*统一的底部页脚结束*/
+
+
+
+
+
+
+/*首页>发布闲置的字体*/
+
+.daohangtiao {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+.daohangtiao a {
+    color: #5483B3;
+}
+/*首页>发布闲置的字体end*/
+
+
+
+
+
+/*提示盒的内容设计*/
+.tishihe {
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #856404;
+}
+/*提示盒的内容设计end*/
