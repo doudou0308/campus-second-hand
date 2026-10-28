@@ -10,8 +10,8 @@ function checklianxi() {
         alert('请输入正确的电子邮箱格式！');
         return false;
     }
-    alert('留言提交成功！感谢您的反馈，我们会尽快回复。');
-    return true;
+    alert('这是前端演示，留言不会发送或保存。');
+    return false;
 }
 
 
@@ -38,7 +38,6 @@ function checkfabu() {
         return false;
     }
 
-    alert('发布成功！您的闲置物品已提交，审核通过后即可在平台显示。');
-    window.location.href = 'index.html';
+    alert('这是前端演示，物品信息不会发布或保存。');
     return false;
 }
