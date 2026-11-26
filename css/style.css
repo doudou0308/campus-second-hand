@@ -493,3 +493,94 @@ a:hover {
     color: #856404;
 }
 /*提示盒的内容设计end*/
+
+#fabu .cianniu {
+    margin-left: 25px;
+}
+
+/* 响应式布局 */
+.dingbu,
+.rongqi,
+.dibu {
+    max-width: calc(100% - 40px);
+}
+
+.bantoumincen {
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+@media (max-width: 900px) {
+    .dingbu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .daohang {
+        flex-wrap: wrap;
+    }
+
+    .daohang a {
+        display: block;
+        padding: 8px;
+    }
+
+    .buju {
+        display: block;
+    }
+
+    .zhuti {
+        margin: 0 0 24px;
+    }
+
+    .leibiewang,
+    .dibu {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .leibieka,
+    .dianlan {
+        flex: 1 1 120px;
+        margin: 0;
+    }
+
+    .wupinwang {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .wupinka {
+        width: auto;
+        margin: 0;
+        overflow-wrap: anywhere;
+    }
+
+    .biaozu input,
+    .biaozu textarea,
+    .biaozu select {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hengfu {
+        height: 240px;
+    }
+
+    .wenzi h1 {
+        font-size: 26px;
+    }
+
+    .kapian {
+        padding: 16px;
+    }
+
+    #fabu .cianniu {
+        display: table;
+        margin: 10px 0 0;
+    }
+}
